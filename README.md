@@ -37,4 +37,4 @@ with printf("%ld\n", BLOCK_SIZE); to see what memory block size (with alignment)
 
 
 ## License
-GPL License
+BSD Clause 3
