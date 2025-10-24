@@ -1,0 +1,8 @@
+https://thelinuxcode.com/brk-system-call-c/
+https://danluu.com/malloc-tutorial/
+http://www.inf.udec.cl/~leo/Malloc_tutorial.pdf
+https://manybutfinite.com/post/anatomy-of-a-program-in-memory/
+https://splichal.eu/gccsphinx-final/html/gcc/extensions-to-the-c-language-family/how-to-use-inline-assembly-language-in-c-code.html
+https://gcc.gnu.org/wiki/ConvertBasicAsmToExtended
+
+Note: If the links are unavailable use the web archive - archive.org
