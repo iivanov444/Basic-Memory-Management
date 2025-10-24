@@ -30,10 +30,8 @@ The name of the main header file is "custom_unistd.h", it's enough to include on
 
 ## Notes
 "custom_" and "CUSTOM_" prefixes are used to avoid conflicts with standard variables, functions and macros.
-Compiles with flags -std=c89 -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion
--Wnull-dereference -fsanitize=address -fsanitize=leak with no warnings on GCC 15.2.1 20250813 and Clang 21.1.4 desktop Linux x86-64.
-Also in "3. first fit malloc/first_fit_malloc.c" you can add #include <stdio.h> and an int main() section
-with printf("%ld\n", BLOCK_SIZE); to see what memory block size (with alignment) you have.
+Compiles with flags -std=c89 -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -fsanitize=address -fsanitize=leak with no warnings on GCC 15.2.1 20250813 and Clang 21.1.4 desktop Linux x86-64.
+Also in "3. first fit malloc/first_fit_malloc.c" you can add #include <stdio.h> and an int main() section with printf("%ld\n", BLOCK_SIZE); to see what memory block size (with alignment) you have.
 
 
 ## License
